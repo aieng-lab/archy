@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-0007",
+  "entity_source_path": "data/doc/doc-0007-2004-philips.doc",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": null,
+  "entity_title": "Platform-i MSN",
+  "entity_origin": "Company",
+  "entity_purpose": "Requirement",
+  "entity_confidence": "high",
+  "entity_modality": "text",
+  "mime_type": "application/doc",
+  "project_name": "Platform-i MSN",
+  "project_uri": "https://de.scribd.com/document/1049081325/2004-Philips",
+  "issue_tracking_uri": null,
+  "version_controlled_uri": null,
+  "created_at": "2004-03-19",
+  "imported_at": "2026-03-22",
+  "version": "1.0",
+  "authors": [
+    "René Nieuwenhuis"
+  ],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

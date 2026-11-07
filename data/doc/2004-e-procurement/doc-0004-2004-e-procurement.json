@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-0004",
+  "entity_source_path": "data/doc/doc-0004-2004-e-procurement.doc",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": null,
+  "entity_title": "eProcurement Functional Requirements Specification",
+  "entity_origin": "Government",
+  "entity_purpose": "Requirement",
+  "entity_confidence": "high",
+  "entity_modality": "text",
+  "mime_type": "application/doc",
+  "project_name": "eProcurement Interoperability Requirements",
+  "project_uri": "https://webarchive.nationalarchives.gov.uk/ukgwa/20070108132428mp_/http://www.govtalk.gov.uk/documents/OGC-eProc-v4-0.pdf#4#1",
+  "issue_tracking_uri": null,
+  "version_controlled_uri": null,
+  "created_at": "2004-07-21",
+  "imported_at": "2026-06-23",
+  "version": "4.0",
+  "authors": [
+    "Tim Benson"
+  ],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

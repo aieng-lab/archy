@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-0001",
+  "entity_source_path": "data/doc/doc-0001-2000-nasa-x38.doc",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": null,
+  "entity_title": "SOFTWARE REQUIREMENTS SPECIFICATION / INTERFACE REQUIREMENTS SPECIFICATION for X-38 Fault Tolerant System Services",
+  "entity_origin": "Government",
+  "entity_purpose": "Requirement",
+  "entity_confidence": "high",
+  "entity_modality": "text",
+  "mime_type": "application/doc",
+  "project_name": "X-38 Fault Tolerant System Services",
+  "project_uri": "https://de.scribd.com/document/406589476/297749-Rev-f",
+  "issue_tracking_uri": null,
+  "version_controlled_uri": null,
+  "created_at": "2000-04-12",
+  "imported_at": "2026-03-22",
+  "version": "1.0",
+  "authors": [
+    "Charles Stark Draper Laboratory, Inc."
+  ],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

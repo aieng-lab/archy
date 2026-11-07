@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-0008",
+  "entity_source_path": "data/doc/doc-0008-2005-clarus-high.doc",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": null,
+  "entity_title": "Clarus Weather System Design",
+  "entity_origin": "Government",
+  "entity_purpose": "Requirement",
+  "entity_confidence": "low",
+  "entity_modality": "text",
+  "mime_type": "application/doc",
+  "project_name": "Clarus",
+  "project_uri": "",
+  "issue_tracking_uri": null,
+  "version_controlled_uri": null,
+  "created_at": "2005-07-01",
+  "imported_at": "2026-03-22",
+  "version": "1.0",
+  "authors": [
+    "Mixon Hill"
+  ],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}
