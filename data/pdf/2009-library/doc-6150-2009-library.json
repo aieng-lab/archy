@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-6150",
+  "entity_source_path": "data/pdf/doc-6150-2009-library.pdf",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": null,
+  "entity_title": "Software Requirements Specification for the Global Requirements of an Integrated Library System",
+  "entity_origin": "Government",
+  "entity_purpose": "Requirement",
+  "entity_confidence": "high",
+  "entity_modality": "text",
+  "mime_type": "application/pdf",
+  "project_name": "Integrated Library System (ILS)",
+  "project_uri": "https://galecia.com/sites/default/files/project_files/COMPLETEL_SET_-_KCLS_ILS_Requirements_0.pdf",
+  "issue_tracking_uri": null,
+  "version_controlled_uri": null,
+  "created_at": "2009-01-28",
+  "imported_at": "2026-07-29",
+  "version": "2.0",
+  "authors": [
+    "Lori Ayre"
+  ],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-6162",
+  "entity_source_path": "data/pdf/doc-6162-2002-elsforsk-rec.pdf",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": null,
+  "entity_title": "Wind Power Communication-Verification report and recommendation",
+  "entity_origin": "Company",
+  "entity_purpose": "Requirement",
+  "entity_confidence": "high",
+  "entity_modality": "text",
+  "mime_type": "application/pdf",
+  "project_name": "",
+  "project_uri": "https://content.nettedautomation.com/n/download/02_14_rapport.pdf",
+  "issue_tracking_uri": null,
+  "version_controlled_uri": null,
+  "created_at": "2002-04-01",
+  "imported_at": "2026-07-29",
+  "version": "2.14",
+  "authors": [
+    "Anders Andersson"
+  ],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

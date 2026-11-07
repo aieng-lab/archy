@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-6003",
+  "entity_source_path": "data/pdf/doc-6003-Advanced-RAG-Architecture-What-is-RAG_-Advanced-Topics-_-by-U-ur-zker.pdf",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": null,
+  "entity_title": "Advanced RAG Architecture",
+  "entity_origin": "Webpage&Blog",
+  "entity_purpose": "Specification",
+  "entity_confidence": "low",
+  "entity_modality": "text",
+  "mime_type": "application/pdf",
+  "project_name": "Medium",
+  "project_uri": "https://ugurozker.medium.com/advanced-rag-architecture-b9f8a26e2608",
+  "issue_tracking_uri": null,
+  "version_controlled_uri": null,
+  "created_at": "2024-03-24",
+  "imported_at": "2026-06-02",
+  "version": "1.0",
+  "authors": [
+    "Uğur Özker"
+  ],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

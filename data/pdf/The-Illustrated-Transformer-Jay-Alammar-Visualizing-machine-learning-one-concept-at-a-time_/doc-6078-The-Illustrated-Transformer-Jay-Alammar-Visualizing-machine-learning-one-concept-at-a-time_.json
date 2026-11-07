@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-6078",
+  "entity_source_path": "data/pdf/doc-6078-The-Illustrated-Transformer-Jay-Alammar-Visualizing-machine-learning-one-concept-at-a-time_.pdf",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": null,
+  "entity_title": "The Illustrated Transformer",
+  "entity_origin": "Webpage&Blog",
+  "entity_purpose": "Planning",
+  "entity_confidence": "low",
+  "entity_modality": "text",
+  "mime_type": "application/pdf",
+  "project_name": "The Transformer",
+  "project_uri": "https://jalammar.github.io/illustrated-transformer/",
+  "issue_tracking_uri": null,
+  "version_controlled_uri": null,
+  "created_at": "2018-06-27",
+  "imported_at": "2026-06-02",
+  "version": "1.0",
+  "authors": [
+    "Jay Alammar"
+  ],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

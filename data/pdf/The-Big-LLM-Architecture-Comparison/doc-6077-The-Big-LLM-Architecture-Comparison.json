@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-6077",
+  "entity_source_path": "data/pdf/doc-6077-The-Big-LLM-Architecture-Comparison.pdf",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": null,
+  "entity_title": "The Big LLM Architecture Comparison",
+  "entity_origin": "Webpage&Blog",
+  "entity_purpose": "Design",
+  "entity_confidence": "low",
+  "entity_modality": "text",
+  "mime_type": "application/pdf",
+  "project_name": " odern LLM Architecture Design",
+  "project_uri": "https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison",
+  "issue_tracking_uri": null,
+  "version_controlled_uri": null,
+  "created_at": "2025-07-19",
+  "imported_at": "2026-06-02",
+  "version": "1.0",
+  "authors": [
+    "Sebastian Raschka"
+  ],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}
