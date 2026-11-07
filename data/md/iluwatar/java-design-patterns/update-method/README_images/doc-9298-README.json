@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-9298",
+  "entity_source_path": "data/md/iluwatar/java-design-patterns/update-method/README_images/README.md",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": [
+    "data/md/iluwatar/java-design-patterns/update-method/README_images/update-method-sequence-diagram.png"
+  ],
+  "entity_title": "Readme",
+  "entity_origin": "Open-Source",
+  "entity_purpose": "Specification",
+  "entity_confidence": "high",
+  "entity_modality": "bimodal",
+  "mime_type": "text/markdown",
+  "project_name": "iluwatar/java-design-patterns",
+  "project_uri": "https://github.com/iluwatar/java-design-patterns.git",
+  "issue_tracking_uri": "https://github.com/iluwatar/java-design-patterns/issues",
+  "version_controlled_uri": "https://github.com/iluwatar/java-design-patterns/commits",
+  "created_at": "2014-08-09",
+  "imported_at": "2026-06-03",
+  "version": "1.0",
+  "authors": [],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

@@ -1,0 +1,33 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-7606",
+  "entity_source_path": "data/md/Azure/MachineLearningNotebooks/how-to-use-azureml/automated-machine-learning/forecasting-many-models/README_images/README.md",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": [
+    "data/md/Azure/MachineLearningNotebooks/how-to-use-azureml/automated-machine-learning/forecasting-many-models/README_images/Flow_map.png",
+    "data/md/Azure/MachineLearningNotebooks/how-to-use-azureml/automated-machine-learning/forecasting-many-models/README_images/mmsa-overview.png",
+    "data/md/Azure/MachineLearningNotebooks/how-to-use-azureml/automated-machine-learning/forecasting-many-models/README_images/mmsa.png"
+  ],
+  "entity_title": "Readme",
+  "entity_origin": "Open-Source",
+  "entity_purpose": "Specification",
+  "entity_confidence": "high",
+  "entity_modality": "bimodal",
+  "mime_type": "text/markdown",
+  "project_name": "Azure/MachineLearningNotebooks",
+  "project_uri": "https://github.com/Azure/MachineLearningNotebooks.git",
+  "issue_tracking_uri": "https://github.com/Azure/MachineLearningNotebooks/issues",
+  "version_controlled_uri": "https://github.com/Azure/MachineLearningNotebooks/commits",
+  "created_at": "2018-08-17",
+  "imported_at": "2026-06-03",
+  "version": "1.0",
+  "authors": [],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

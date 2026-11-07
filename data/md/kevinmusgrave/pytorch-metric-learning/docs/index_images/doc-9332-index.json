@@ -1,0 +1,32 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-9332",
+  "entity_source_path": "data/md/kevinmusgrave/pytorch-metric-learning/docs/index_images/index.md",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": [
+    "data/md/kevinmusgrave/pytorch-metric-learning/docs/index_images/high_level_loss_function_overview.png",
+    "data/md/kevinmusgrave/pytorch-metric-learning/docs/index_images/high_level_module_overview.png"
+  ],
+  "entity_title": "Index",
+  "entity_origin": "Open-Source",
+  "entity_purpose": "Specification",
+  "entity_confidence": "high",
+  "entity_modality": "bimodal",
+  "mime_type": "text/markdown",
+  "project_name": "kevinmusgrave/pytorch-metric-learning",
+  "project_uri": "https://github.com/kevinmusgrave/pytorch-metric-learning.git",
+  "issue_tracking_uri": "https://github.com/kevinmusgrave/pytorch-metric-learning/issues",
+  "version_controlled_uri": "https://github.com/kevinmusgrave/pytorch-metric-learning/commits",
+  "created_at": "2019-10-23",
+  "imported_at": "2026-06-03",
+  "version": "1.0",
+  "authors": [],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

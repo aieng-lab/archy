@@ -1,0 +1,33 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-9416",
+  "entity_source_path": "data/md/microsoft/vscode/.github/instructions/interactive.instructions_images/interactive.instructions.md",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": [
+    "data/md/microsoft/vscode/.github/instructions/interactive.instructions_images/interactive.editor.drawio.svg",
+    "data/md/microsoft/vscode/.github/instructions/interactive.instructions_images/interactive.eh.drawio.svg",
+    "data/md/microsoft/vscode/.github/instructions/interactive.instructions_images/interactive.model.resolution.drawio.svg"
+  ],
+  "entity_title": "Interactive.instructions",
+  "entity_origin": "Open-Source",
+  "entity_purpose": "Specification",
+  "entity_confidence": "high",
+  "entity_modality": "bimodal",
+  "mime_type": "text/markdown",
+  "project_name": "microsoft/vscode",
+  "project_uri": "https://github.com/microsoft/vscode.git",
+  "issue_tracking_uri": "https://github.com/microsoft/vscode/issues",
+  "version_controlled_uri": "https://github.com/microsoft/vscode/releases",
+  "created_at": null,
+  "imported_at": "2026-06-03",
+  "version": "1.0",
+  "authors": [],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}
