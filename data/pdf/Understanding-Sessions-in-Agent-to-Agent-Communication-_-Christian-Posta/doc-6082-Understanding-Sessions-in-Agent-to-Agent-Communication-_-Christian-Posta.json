@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-6082",
+  "entity_source_path": "data/pdf/doc-6082-Understanding-Sessions-in-Agent-to-Agent-Communication-_-Christian-Posta.pdf",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": null,
+  "entity_title": "Understanding Sessions in Agent to Agent Communication",
+  "entity_origin": "Webpage&Blog",
+  "entity_purpose": "Requirement",
+  "entity_confidence": "low",
+  "entity_modality": "text",
+  "mime_type": "application/pdf",
+  "project_name": "Agent to Agent",
+  "project_uri": "https://blog.christianposta.com/understanding-sessions-in-agent-to-agent-communication/",
+  "issue_tracking_uri": null,
+  "version_controlled_uri": null,
+  "created_at": "2025-09-27",
+  "imported_at": "2026-06-08",
+  "version": "1.0",
+  "authors": [
+    "Christion Posta"
+  ],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

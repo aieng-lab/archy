@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-6119",
+  "entity_source_path": "data/pdf/doc-6119-2003-tachonet.pdf",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": null,
+  "entity_title": "TACHOnet",
+  "entity_origin": "Government",
+  "entity_purpose": "Requirement",
+  "entity_confidence": "high",
+  "entity_modality": "text",
+  "mime_type": "application/pdf",
+  "project_name": "TACHOnet",
+  "project_uri": "https://transport.ec.europa.eu/document/download/a25ffecf-f570-4ed0-b746-0ac2adfeb60b_en?filename=tcn_srs_01-00.pdf",
+  "issue_tracking_uri": null,
+  "version_controlled_uri": null,
+  "created_at": "2003-02-21",
+  "imported_at": "2026-07-29",
+  "version": "1.0",
+  "authors": [
+    ""
+  ],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

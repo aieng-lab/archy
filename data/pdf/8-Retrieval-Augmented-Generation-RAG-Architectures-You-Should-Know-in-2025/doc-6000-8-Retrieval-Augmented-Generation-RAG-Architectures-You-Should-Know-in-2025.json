@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-6000",
+  "entity_source_path": "data/pdf/doc-6000-8-Retrieval-Augmented-Generation-RAG-Architectures-You-Should-Know-in-2025.pdf",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": null,
+  "entity_title": "Explainer 2025/02/01",
+  "entity_origin": "Webpage&Blog",
+  "entity_purpose": "Specification",
+  "entity_confidence": "low",
+  "entity_modality": "text",
+  "mime_type": "application/pdf",
+  "project_name": "Humanloop",
+  "project_uri": "https://humanloop.com/blog/rag-architectures",
+  "issue_tracking_uri": null,
+  "version_controlled_uri": null,
+  "created_at": "2025-02-01",
+  "imported_at": "2026-06-02",
+  "version": "1.0",
+  "authors": [
+    "Conor Kelly"
+  ],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-6163",
+  "entity_source_path": "data/pdf/doc-6163-2003-elt-ins.pdf",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": null,
+  "entity_title": "Instrument Control Software Requirement Specification for Extremely Large Telescopes",
+  "entity_origin": "Education&Research",
+  "entity_purpose": "Requirement",
+  "entity_confidence": "high",
+  "entity_modality": "text",
+  "mime_type": "application/pdf",
+  "project_name": "Extremely Large Telescopes (ELT)",
+  "project_uri": "https://www.eso.org/~gchiozzi/MyDocs/SPIE2010/7740-217-ELT_INS_Control_Software_Requirements.pdf",
+  "issue_tracking_uri": null,
+  "version_controlled_uri": null,
+  "created_at": "2003-03-01",
+  "imported_at": "2026-07-29",
+  "version": "1.0",
+  "authors": [
+    "Peter J. Young"
+  ],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

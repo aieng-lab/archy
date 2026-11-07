@@ -1,0 +1,31 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-6138",
+  "entity_source_path": "data/pdf/doc-6138-2007-get-real-0-2.pdf",
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": null,
+  "entity_title": "Software Requirements Specification For Get Real Website",
+  "entity_origin": "Education&Research",
+  "entity_purpose": "Requirement",
+  "entity_confidence": "high",
+  "entity_modality": "text",
+  "mime_type": "application/pdf",
+  "project_name": "Get Real",
+  "project_uri": "https://de.scribd.com/document/48057839/srs-example-1",
+  "issue_tracking_uri": null,
+  "version_controlled_uri": null,
+  "created_at": "2007-07-16",
+  "imported_at": "2026-07-29",
+  "version": "0.2",
+  "authors": [
+    "Ken Cone"
+  ],
+  "status": "approved",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}
