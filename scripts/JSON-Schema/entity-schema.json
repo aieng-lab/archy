@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/entity-schema.json",
+  "title": "Entity Schema (Document / Chunk)",
+  "description": "Schema for a single entity instance with role 'document' or 'chunk'.",
+  "type": "object",
+
+  "properties": {
+    "json_schema": {
+      "type": "string",
+      "const": "2020-12",
+      "description": "JSON Schema standard used."
+    },
+    "schema_version": {
+      "type": "string",
+      "default": "1.0",
+      "description": "Version of this entity schema."
+    },
+
+    "entity_id": {
+      "type": "string",
+      "description": "Unique ID for entity (document or chunk), e.g. doc-0001 or chunk-0002."
+    },
+    "entity_source_path": {
+      "type": "string",
+      "description": "Relative path to the entity of role document or chunk in the dataset."
+    },
+    "entity_role": {
+      "type": "string",
+      "enum": ["document", "chunk"],
+      "description": "Role of entity: document or chunk."
+    },
+    "parent_doc_id": {
+      "type": ["string", "null"],
+      "description": "ID of the document from which this chunk is derived, or null. Applies only when entity_role = chunk. E.g. doc-0001."
+    },
+    "parent_doc_path": {
+      "type": ["string", "null"],
+      "description": "Relative path to the document in the dataset from which this chunk is derived. Applies only when entity_role = chunk."
+    },
+    "children_chunk_ids": {
+      "type": ["array", "null"],
+      "items": { "type": "string" },
+      "description": "IDs of chunks belonging to the document in this dataset. Applies only when entity_role = document."
+    },
+    "entity_title": {
+      "type": "string",
+      "description": "Title of entity (document or chunk)."
+    },
+
+    "entity_origin": {
+      "type": "string",
+      "enum": ["Webpage&Blog", "Company", "Open-Source", "Education&Research", "Government", "others"],
+      "description": "Type of source from where the entity comes from."
+    },
+    "entity_purpose": {
+      "type": "string",
+      "enum": ["Planning", "Requirement", "Specification", "Design", "Validation", "Deployment", "others"],
+      "description": "Purpose or usage of the entity."
+    },
+    "entity_confidence": {
+      "type": "string",
+      "enum": ["high", "low", "others"],
+      "description": "Confidence of the entity: high when loaded from a defined source, low when found on the internet."
+    },
+    "entity_modality": {
+      "type": "string",
+      "enum": ["text", "image", "bimodal"],
+      "description": "Presentation of the entity as text, image or bimodal."
+    },
+    "mime_type": {
+      "type": "string",
+      "enum": [
+        "application/pdf",
+        "application/doc",
+        "image/jpeg",
+        "image/png",
+        "image/svg",
+        "text/markdown",
+        "text/plain",
+        "text/x-rst"
+      ],
+      "description": "Mime-type of the entity, corresponds with the extension of the entity."
+    },
+    "project_name": {
+      "type": ["string", "null"],
+      "description": "Name of project from where the entity is loaded."
+    },
+    "project_uri": {
+      "type": ["string", "null"],
+      "description": "URI to project from where the entity is loaded, ends with .git."
+    },
+    "issue_tracking_uri": {
+      "type": ["string", "null"],
+      "description": "URI to issues of entity on project site."
+    },
+    "version_controlled_uri": {
+      "type": ["string", "null"],
+      "description": "URI to commits of entity on project site."
+    },
+
+    "created_at": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "ISO-8601 date, e.g. yyyy-mm-dd."
+    },
+    "imported_at": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "ISO-8601 date, e.g. yyyy-mm-dd."
+    },
+    "version": {
+      "type": ["string", "null"],
+      "pattern": "^[0-9]+\\.[0-9]+$",
+      "description": "Version in major.minor format."
+    },
+    "authors": {
+      "type": ["array", "null"],
+      "items": { "type": "string" },
+      "description": "Authors of the entity."
+    },
+    "status": {
+      "type": ["string", "null"],
+      "enum": ["draft", "approved", "deprecated", "others", null],
+      "description": "Status of the entity."
+    },
+
+    "page_range": {
+      "type": ["array", "null"],
+      "prefixItems": [
+        { "type": "integer" },
+        { "type": "integer" }
+      ],
+      "minItems": 2,
+      "maxItems": 2,
+      "default": [0, 0],
+      "description": "Reference to page range [start, end] from which the chunk is derived. Applies only when entity_role = chunk."
+    },
+    "line_range": {
+      "type": ["array", "null"],
+      "prefixItems": [
+        { "type": "integer" },
+        { "type": "integer" }
+      ],
+      "minItems": 2,
+      "maxItems": 2,
+      "default": [0, 0],
+      "description": "Reference to line range [start, end] from which the chunk is derived. Applies only when entity_role = chunk."
+    },
+    "char_range": {
+      "type": ["array", "null"],
+      "prefixItems": [
+        { "type": "integer" },
+        { "type": "integer" }
+      ],
+      "minItems": 2,
+      "maxItems": 2,
+      "default": [0, 0],
+      "description": "Reference to char range [start, end] from which the chunk is derived. Applies only when entity_role = chunk."
+    },
+    "section": {
+      "type": ["string", "null"],
+      "description": "Reference to section in document. Applies only when entity_role = chunk. Default is null."
+    }
+  },
+
+  "required": [
+    "json_schema",
+    "schema_version",
+    "entity_id",
+    "entity_source_path",
+    "entity_role",
+    "entity_title",
+    "entity_origin",
+    "entity_purpose",
+    "entity_confidence",
+    "entity_modality",
+    "mime_type",
+    "imported_at"
+  ],
+
+  "allOf": [
+    {
+      "if": {
+        "properties": { "entity_role": { "const": "document" } },
+        "required": ["entity_role"]
+      },
+      "then": {
+        "properties": {
+          "parent_doc_id": { "const": null },
+          "parent_doc_path": { "const": null },
+          "page_range": { "const": null },
+          "line_range": { "const": null },
+          "char_range": { "const": null },
+          "section": { "const": null }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "entity_role": { "const": "chunk" } },
+        "required": ["entity_role"]
+      },
+      "then": {
+        "required": ["parent_doc_id", "parent_doc_path"],
+        "properties": {
+          "children_chunk_ids": { "const": null }
+        }
+      }
+    }
+  ],
+
+  "additionalProperties": false
+}
