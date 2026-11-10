@@ -16,7 +16,7 @@
   "entity_title": "IFC 4.3 Documentation server",
   "entity_is_readme": true,
   "entity_is_architectural": false,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
   "project_name": "buildingsmart/ifc4.3.x-development",

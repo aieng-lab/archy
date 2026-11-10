@@ -13,7 +13,7 @@
   "entity_title": "Balking Pattern in Java: Smart Control Over Java Execution",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
   "project_name": "iluwatar/java-design-patterns",

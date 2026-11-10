@@ -14,7 +14,7 @@
   "entity_title": "Example Use: Creating a Neural Network to Find Populated Areas in Tanzania",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
   "project_name": "developmentseed/label-maker",

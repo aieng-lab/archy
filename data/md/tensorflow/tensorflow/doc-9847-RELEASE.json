@@ -11,7 +11,7 @@
   "entity_title": "Release 2.22.0",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "text",
   "mime_type": "text/markdown",
   "project_name": "tensorflow/tensorflow",

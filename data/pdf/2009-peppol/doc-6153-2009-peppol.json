@@ -11,7 +11,7 @@
   "entity_title": "Functional and non-functional requirements specification for the VCD",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "pure",
   "entity_modality": "text",
   "mime_type": "application/pdf",
   "project_name": "PEPPOL",

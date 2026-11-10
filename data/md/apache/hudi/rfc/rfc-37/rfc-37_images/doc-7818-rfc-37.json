@@ -15,7 +15,7 @@
   "entity_title": "RFC-37: Metadata based Bloom Index",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
   "project_name": "apache/hudi",

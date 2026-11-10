@@ -61,10 +61,10 @@
       "type": "boolean",
       "description": "True if the entity describes architecture; false for READMEs and other context-only entities."
     },
-    "entity_confidence": {
+    "entity_source": {
       "type": "string",
-      "enum": ["high", "low", "others"],
-      "description": "Confidence of the entity: high when loaded from a defined source, low when found on the internet."
+      "enum": ["repository", "web-search", "pure"],
+      "description": "Source of the entity: the code repository of a project, the Web search, or the PURE dataset of public requirements documents."
     },
     "entity_modality": {
       "type": "string",
@@ -156,7 +156,7 @@
     "entity_title",
     "entity_is_readme",
     "entity_is_architectural",
-    "entity_confidence",
+    "entity_source",
     "entity_modality",
     "mime_type",
     "imported_at"

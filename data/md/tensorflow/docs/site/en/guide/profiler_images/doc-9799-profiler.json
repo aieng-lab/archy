@@ -29,7 +29,7 @@
   "entity_title": "Optimize TensorFlow performance using the Profiler",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
   "project_name": "tensorflow/docs",

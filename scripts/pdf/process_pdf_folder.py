@@ -75,7 +75,7 @@ DEFAULT_TEMPLATE = {
     "entity_title": "",
     "entity_is_readme": False,
     "entity_is_architectural": True,
-    "entity_confidence": "others",
+    "entity_source": "web-search",  # set to "pure" for documents from the PURE dataset
     "entity_modality": "text",
     "mime_type": "application/pdf",
     "project_name": "",

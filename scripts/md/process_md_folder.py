@@ -50,7 +50,7 @@ re-running the script is safe.
 Attribute values (from the provided Excel mapping)
 --------------------------------------------------------------------
 Fixed for every instance, any role:
-    entity_confidence  = "high"
+    entity_source      = "repository"
     imported_at        = "2026-06-03"
     page_range/line_range/char_range/section = null
 
@@ -105,7 +105,7 @@ ID_MIN = 7600
 ID_MAX = 9999
 
 FIXED_VALUES = {
-    "entity_confidence": "high",
+    "entity_source": "repository",
     "imported_at": "2026-06-03",
 }
 
@@ -262,7 +262,7 @@ def base_instance(entity_id: str, entity_source_path: str, entity_role: str, ent
         ("entity_title", entity_title),
         ("entity_is_readme", is_readme),
         ("entity_is_architectural", not is_readme),
-        ("entity_confidence", FIXED_VALUES["entity_confidence"]),
+        ("entity_source", FIXED_VALUES["entity_source"]),
         ("entity_modality", entity_modality),
         ("mime_type", mime_type),
         ("project_name", project_name),

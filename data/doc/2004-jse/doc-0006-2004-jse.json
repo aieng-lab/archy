@@ -11,7 +11,7 @@
   "entity_title": "ISIN Issuance for Money Market Instruments As NNA",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "low",
+  "entity_source": "pure",
   "entity_modality": "text",
   "mime_type": "application/doc",
   "project_name": null,

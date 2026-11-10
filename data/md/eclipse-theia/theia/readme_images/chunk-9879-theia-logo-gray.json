@@ -11,7 +11,7 @@
   "entity_title": "Theia Logo Gray",
   "entity_is_readme": false,
   "entity_is_architectural": false,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "image",
   "mime_type": "image/svg",
   "project_name": "eclipse-theia/theia",

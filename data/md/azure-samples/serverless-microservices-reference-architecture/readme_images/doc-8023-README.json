@@ -13,7 +13,7 @@
   "entity_title": "Serverless Microservices reference architecture",
   "entity_is_readme": true,
   "entity_is_architectural": false,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
   "project_name": "azure-samples/serverless-microservices-reference-architecture",

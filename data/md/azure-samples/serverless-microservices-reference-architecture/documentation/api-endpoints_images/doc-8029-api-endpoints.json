@@ -16,7 +16,7 @@
   "entity_title": "API endpoints using Azure Functions",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
   "project_name": "azure-samples/serverless-microservices-reference-architecture",

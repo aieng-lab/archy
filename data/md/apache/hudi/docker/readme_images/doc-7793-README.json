@@ -13,7 +13,7 @@
   "entity_title": "Docker Demo for Hudi",
   "entity_is_readme": true,
   "entity_is_architectural": false,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
   "project_name": "apache/hudi",

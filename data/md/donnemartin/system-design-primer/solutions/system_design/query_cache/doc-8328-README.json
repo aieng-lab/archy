@@ -11,7 +11,7 @@
   "entity_title": "Design a key-value cache to save the results of the most recent web server queries",
   "entity_is_readme": true,
   "entity_is_architectural": false,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "text",
   "mime_type": "text/markdown",
   "project_name": "donnemartin/system-design-primer",

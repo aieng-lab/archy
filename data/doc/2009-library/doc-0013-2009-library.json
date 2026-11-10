@@ -11,7 +11,7 @@
   "entity_title": "Software Requirements Specification for the Management Processes of an Integrated Library System",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "pure",
   "entity_modality": "text",
   "mime_type": "application/doc",
   "project_name": null,

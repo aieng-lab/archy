@@ -18,7 +18,7 @@
   "entity_title": "Fast and Flexible Process Simulation",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/x-rst",
   "project_name": "biosteamdevelopmentgroup/biosteam",

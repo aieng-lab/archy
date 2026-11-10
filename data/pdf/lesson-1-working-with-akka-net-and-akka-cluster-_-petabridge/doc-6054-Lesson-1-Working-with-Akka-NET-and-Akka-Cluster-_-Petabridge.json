@@ -11,7 +11,7 @@
   "entity_title": "Lesson 1 - Working with Akka.NET and Akka.Cluster",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "web-search",
   "entity_modality": "text",
   "mime_type": "application/pdf",
   "project_name": "Akka.CQRS",

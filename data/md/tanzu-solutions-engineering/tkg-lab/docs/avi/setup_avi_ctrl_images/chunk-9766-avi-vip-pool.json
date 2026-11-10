@@ -11,7 +11,7 @@
   "entity_title": "Avi Vip Pool",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "image",
   "mime_type": "image/png",
   "project_name": "tanzu-solutions-engineering/tkg-lab",

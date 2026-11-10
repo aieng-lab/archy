@@ -11,7 +11,7 @@
   "entity_title": "SOFTWARE REQUIREMENTS SPECIFICATION / INTERFACE REQUIREMENTS SPECIFICATION for X-38 Fault Tolerant System Services",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "pure",
   "entity_modality": "text",
   "mime_type": "application/doc",
   "project_name": "X-38 Fault Tolerant System Services",

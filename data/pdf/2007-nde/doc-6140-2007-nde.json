@@ -11,7 +11,7 @@
   "entity_title": "NDE to AWIPS Interface Control Document (ICD)",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "web-search",
   "entity_modality": "text",
   "mime_type": "application/pdf",
   "project_name": "NPP Data Exploitation (NDE)",

@@ -13,7 +13,7 @@
   "entity_title": "Fan-Out Fan-In Pattern in Java: Maximizing Concurrency for Efficient Data Processing",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
   "project_name": "iluwatar/java-design-patterns",

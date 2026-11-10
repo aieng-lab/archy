@@ -11,7 +11,7 @@
   "entity_title": "Cqrs",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "image",
   "mime_type": "image/jpeg",
   "project_name": "kgrzybek/modular-monolith-with-ddd",

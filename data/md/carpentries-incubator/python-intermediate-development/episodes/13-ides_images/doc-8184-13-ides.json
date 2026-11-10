@@ -44,7 +44,7 @@
   "entity_title": "1.3 Integrated Software Development Environments",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
   "project_name": "carpentries-incubator/python-intermediate-development",

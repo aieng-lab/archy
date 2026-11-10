@@ -11,7 +11,7 @@
   "entity_title": "Software Requirements Specification for Virtual-ED",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "pure",
   "entity_modality": "text",
   "mime_type": "application/doc",
   "project_name": "Virtual-ED",

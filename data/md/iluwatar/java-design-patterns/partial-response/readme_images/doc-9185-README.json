@@ -13,7 +13,7 @@
   "entity_title": "Partial Response Pattern in Java: Optimizing Data Delivery for Efficient Web Services",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
   "project_name": "iluwatar/java-design-patterns",

@@ -13,7 +13,7 @@
   "entity_title": "RFC-27: Data skipping Index to improve query performance",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
   "project_name": "apache/hudi",

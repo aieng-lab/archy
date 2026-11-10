@@ -13,7 +13,7 @@
   "entity_title": "Presentation Model Pattern in Java: Enhancing UI Design with Robust Data Management",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
   "project_name": "iluwatar/java-design-patterns",

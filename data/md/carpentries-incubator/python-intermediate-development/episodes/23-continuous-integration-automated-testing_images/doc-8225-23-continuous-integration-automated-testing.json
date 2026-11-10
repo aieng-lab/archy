@@ -16,7 +16,7 @@
   "entity_title": "2.3 Continuous Integration for Automated Testing",
   "entity_is_readme": false,
   "entity_is_architectural": true,
-  "entity_confidence": "high",
+  "entity_source": "repository",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
   "project_name": "carpentries-incubator/python-intermediate-development",
