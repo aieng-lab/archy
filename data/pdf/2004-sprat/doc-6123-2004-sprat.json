@@ -9,8 +9,8 @@
   "parent_doc_path": null,
   "children_chunk_ids": null,
   "entity_title": "Security and Privacy Requirements Analysis Tool",
-  "entity_origin": "Education&Research",
-  "entity_purpose": "Requirement",
+  "entity_is_readme": false,
+  "entity_is_architectural": true,
   "entity_confidence": "high",
   "entity_modality": "text",
   "mime_type": "application/pdf",
@@ -19,11 +19,6 @@
   "issue_tracking_uri": null,
   "version_controlled_uri": null,
   "imported_at": "2026-07-29",
-  "version": "2.0",
-  "authors": [
-    "Neha Jain"
-  ],
-  "status": "approved",
   "page_range": null,
   "line_range": null,
   "char_range": null,

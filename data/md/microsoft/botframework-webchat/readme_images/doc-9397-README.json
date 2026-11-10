@@ -1,0 +1,29 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-9397",
+  "entity_source_path": "data/md/microsoft/botframework-webchat/readme_images/README.md",
+  "entity_uri": null,
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": [
+    "chunk-9398",
+    "chunk-9399"
+  ],
+  "entity_title": "Readme",
+  "entity_is_readme": true,
+  "entity_is_architectural": false,
+  "entity_confidence": "high",
+  "entity_modality": "bimodal",
+  "mime_type": "text/markdown",
+  "project_name": "microsoft/botframework-webchat",
+  "project_uri": "https://github.com/microsoft/botframework-webchat.git",
+  "issue_tracking_uri": "https://github.com/microsoft/botframework-webchat/issues",
+  "version_controlled_uri": "https://github.com/microsoft/botframework-webchat/commits",
+  "imported_at": "2026-06-03",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

@@ -9,8 +9,8 @@
   "parent_doc_path": null,
   "children_chunk_ids": null,
   "entity_title": "SOFTWARE REQUIREMENTS SPECIFICATION-Mars Express",
-  "entity_origin": "Government",
-  "entity_purpose": "Requirement",
+  "entity_is_readme": false,
+  "entity_is_architectural": true,
   "entity_confidence": "low",
   "entity_modality": "text",
   "mime_type": "application/pdf",
@@ -19,11 +19,6 @@
   "issue_tracking_uri": null,
   "version_controlled_uri": null,
   "imported_at": "2026-07-29",
-  "version": "1.0",
-  "authors": [
-    "Sandee Jeffers"
-  ],
-  "status": "approved",
   "page_range": null,
   "line_range": null,
   "char_range": null,

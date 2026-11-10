@@ -50,19 +50,8 @@ re-running the script is safe.
 Attribute values (from the provided Excel mapping)
 --------------------------------------------------------------------
 Fixed for every instance, any role:
-    entity_origin      = "Open-Source"            (document-without-chunks
-                                                     role in the Excel;
-                                                     applied to all roles
-                                                     here since the schema
-                                                     requires a valid,
-                                                     non-null value for
-                                                     every instance)
-    entity_purpose     = "Specification"
     entity_confidence  = "high"
     imported_at        = "2026-06-03"
-    version             = "1.0"
-    status              = "approved"
-    authors             = []
     page_range/line_range/char_range/section = null
 
 Derived:
@@ -110,17 +99,14 @@ MD_RST_EXTENSIONS = {".md", ".rst"}
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".svg"}
 ALL_EXTENSIONS = MD_RST_EXTENSIONS | IMAGE_EXTENSIONS
 
+CONTENT_README_PROJECTS = {"iluwatar/java-design-patterns"}
+
 ID_MIN = 7600
 ID_MAX = 9999
 
 FIXED_VALUES = {
-    "entity_origin": "Open-Source",
-    "entity_purpose": "Specification",
     "entity_confidence": "high",
     "imported_at": "2026-06-03",
-    "version": "1.0",
-    "status": "approved",
-    "authors": [],
 }
 
 EXTENSION_TO_MIME = {
@@ -257,6 +243,12 @@ def base_instance(entity_id: str, entity_source_path: str, entity_role: str, ent
                    issue_tracking_uri: str, version_controlled_uri: str,
                    parent_doc_id: str | None, parent_doc_path: str | None,
                    children_chunk_ids: list[str] | None) -> dict:
+    # README documents are kept as project context; everything else counts as architecture
+    is_readme = entity_role == "document" and Path(entity_source_path).name.lower().startswith("readme")
+    # Projects that keep their actual documentation in folder-level READMEs (one per pattern):
+    # only the README at the repository root counts as a README there.
+    if is_readme and project_name in CONTENT_README_PROJECTS:
+        is_readme = len(Path(entity_source_path).parts) == 5   # data/md/<owner>/<repo>/README.md
     return OrderedDict([
         ("json_schema", "2020-12"),
         ("schema_version", "0.9"),
@@ -268,8 +260,8 @@ def base_instance(entity_id: str, entity_source_path: str, entity_role: str, ent
         ("parent_doc_path", parent_doc_path),
         ("children_chunk_ids", children_chunk_ids),
         ("entity_title", entity_title),
-        ("entity_origin", FIXED_VALUES["entity_origin"]),
-        ("entity_purpose", FIXED_VALUES["entity_purpose"]),
+        ("entity_is_readme", is_readme),
+        ("entity_is_architectural", not is_readme),
         ("entity_confidence", FIXED_VALUES["entity_confidence"]),
         ("entity_modality", entity_modality),
         ("mime_type", mime_type),
@@ -278,9 +270,6 @@ def base_instance(entity_id: str, entity_source_path: str, entity_role: str, ent
         ("issue_tracking_uri", issue_tracking_uri),
         ("version_controlled_uri", version_controlled_uri),
         ("imported_at", FIXED_VALUES["imported_at"]),
-        ("version", FIXED_VALUES["version"]),
-        ("authors", list(FIXED_VALUES["authors"])),
-        ("status", FIXED_VALUES["status"]),
         ("page_range", None),
         ("line_range", None),
         ("char_range", None),

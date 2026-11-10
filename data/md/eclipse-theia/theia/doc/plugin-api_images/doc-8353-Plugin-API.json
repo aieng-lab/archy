@@ -1,0 +1,29 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-8353",
+  "entity_source_path": "data/md/eclipse-theia/theia/doc/plugin-api_images/Plugin-API.md",
+  "entity_uri": null,
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": [
+    "chunk-9881",
+    "chunk-9882"
+  ],
+  "entity_title": "Theia Plugin API and VS Code extensions support",
+  "entity_is_readme": false,
+  "entity_is_architectural": true,
+  "entity_confidence": "high",
+  "entity_modality": "bimodal",
+  "mime_type": "text/markdown",
+  "project_name": "eclipse-theia/theia",
+  "project_uri": "https://github.com/eclipse-theia/theia.git",
+  "issue_tracking_uri": "https://github.com/eclipse-theia/theia/issues",
+  "version_controlled_uri": "https://github.com/eclipse-theia/theia/commits",
+  "imported_at": "2026-06-03",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

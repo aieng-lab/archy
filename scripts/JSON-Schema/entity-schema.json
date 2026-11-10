@@ -53,15 +53,13 @@
       "description": "Title of entity (document or chunk)."
     },
 
-    "entity_origin": {
-      "type": "string",
-      "enum": ["Webpage&Blog", "Company", "Open-Source", "Education&Research", "Government", "others"],
-      "description": "Type of source from where the entity comes from."
+    "entity_is_readme": {
+      "type": "boolean",
+      "description": "True if the entity is a README document of a project."
     },
-    "entity_purpose": {
-      "type": "string",
-      "enum": ["Planning", "Requirement", "Specification", "Design", "Validation", "Deployment", "others"],
-      "description": "Purpose or usage of the entity."
+    "entity_is_architectural": {
+      "type": "boolean",
+      "description": "True if the entity describes architecture; false for READMEs and other context-only entities."
     },
     "entity_confidence": {
       "type": "string",
@@ -108,21 +106,6 @@
       "type": ["string", "null"],
       "format": "date",
       "description": "ISO-8601 date, e.g. yyyy-mm-dd."
-    },
-    "version": {
-      "type": ["string", "null"],
-      "pattern": "^[0-9]+\\.[0-9]+$",
-      "description": "Version in major.minor format."
-    },
-    "authors": {
-      "type": ["array", "null"],
-      "items": { "type": "string" },
-      "description": "Authors of the entity."
-    },
-    "status": {
-      "type": ["string", "null"],
-      "enum": ["draft", "approved", "deprecated", "others", null],
-      "description": "Status of the entity."
     },
 
     "page_range": {
@@ -171,8 +154,8 @@
     "entity_source_path",
     "entity_role",
     "entity_title",
-    "entity_origin",
-    "entity_purpose",
+    "entity_is_readme",
+    "entity_is_architectural",
     "entity_confidence",
     "entity_modality",
     "mime_type",

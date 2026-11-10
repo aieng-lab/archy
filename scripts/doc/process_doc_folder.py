@@ -83,7 +83,7 @@ from pathlib import Path
 # Instance template derived from entity-schema.json (no separate
 # instance-pattern attachment was provided this time). Uses the
 # current field set, including "version_controlled_uri" and a nullable
-# imported_at. entity_origin/purpose/confidence default to the schema's
+# imported_at. entity_confidence defaults to the schema's
 # "others" enum value so freshly created instances are schema-valid even
 # before a later enrichment step fills in the real classification.
 DEFAULT_TEMPLATE = {
@@ -97,8 +97,8 @@ DEFAULT_TEMPLATE = {
     "parent_doc_path": None,
     "children_chunk_ids": None,
     "entity_title": "",
-    "entity_origin": "others",
-    "entity_purpose": "others",
+    "entity_is_readme": False,
+    "entity_is_architectural": True,
     "entity_confidence": "others",
     "entity_modality": "text",
     "mime_type": "application/doc",
@@ -107,9 +107,6 @@ DEFAULT_TEMPLATE = {
     "issue_tracking_uri": None,
     "version_controlled_uri": None,
     "imported_at": None,
-    "version": None,
-    "authors": [],
-    "status": "approved",
     "page_range": None,
     "line_range": None,
     "char_range": None,

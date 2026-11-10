@@ -1,0 +1,29 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-9387",
+  "entity_source_path": "data/md/lichess-org/lila/readme_images/README.md",
+  "entity_uri": null,
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": [
+    "chunk-9388",
+    "chunk-9389"
+  ],
+  "entity_title": "lichess.org",
+  "entity_is_readme": true,
+  "entity_is_architectural": false,
+  "entity_confidence": "high",
+  "entity_modality": "bimodal",
+  "mime_type": "text/markdown",
+  "project_name": "lichess-org/lila",
+  "project_uri": "https://github.com/lichess-org/lila.git",
+  "issue_tracking_uri": "https://github.com/lichess-org/lila/issues",
+  "version_controlled_uri": "https://github.com/lichess-org/lila/commits",
+  "imported_at": "2026-06-03",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}

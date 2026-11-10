@@ -10,11 +10,12 @@
   "children_chunk_ids": [
     "chunk-8218",
     "chunk-8219",
-    "chunk-8220"
+    "chunk-8220",
+    "chunk-9876"
   ],
-  "entity_title": "14 Collaboration Using Git",
-  "entity_origin": "Open-Source",
-  "entity_purpose": "Specification",
+  "entity_title": "1.4 Software Development Using Git and GitHub",
+  "entity_is_readme": false,
+  "entity_is_architectural": true,
   "entity_confidence": "high",
   "entity_modality": "bimodal",
   "mime_type": "text/markdown",
@@ -23,9 +24,6 @@
   "issue_tracking_uri": "https://github.com/carpentries-incubator/python-intermediate-development/issues",
   "version_controlled_uri": "https://github.com/carpentries-incubator/python-intermediate-development/commits",
   "imported_at": "2026-06-03",
-  "version": "1.0",
-  "authors": [],
-  "status": "approved",
   "page_range": null,
   "line_range": null,
   "char_range": null,

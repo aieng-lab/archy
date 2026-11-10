@@ -1,0 +1,28 @@
+{
+  "json_schema": "2020-12",
+  "schema_version": "1.0",
+  "entity_id": "doc-9108",
+  "entity_source_path": "data/md/iluwatar/java-design-patterns/lockable-object/readme_images/README.md",
+  "entity_uri": null,
+  "entity_role": "document",
+  "parent_doc_id": null,
+  "parent_doc_path": null,
+  "children_chunk_ids": [
+    "chunk-9109"
+  ],
+  "entity_title": "Lockable Object Pattern in Java: Implementing Robust Synchronization Mechanisms",
+  "entity_is_readme": false,
+  "entity_is_architectural": true,
+  "entity_confidence": "high",
+  "entity_modality": "bimodal",
+  "mime_type": "text/markdown",
+  "project_name": "iluwatar/java-design-patterns",
+  "project_uri": "https://github.com/iluwatar/java-design-patterns.git",
+  "issue_tracking_uri": "https://github.com/iluwatar/java-design-patterns/issues",
+  "version_controlled_uri": "https://github.com/iluwatar/java-design-patterns/commits",
+  "imported_at": "2026-06-03",
+  "page_range": null,
+  "line_range": null,
+  "char_range": null,
+  "section": null
+}
