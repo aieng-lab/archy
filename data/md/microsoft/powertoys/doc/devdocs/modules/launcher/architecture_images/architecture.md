@@ -20,7 +20,7 @@ The backend code is written using the `Model-View-ViewModel (MVVM)` structural d
 
 #### Flow of data between UI(view) and ViewModels
 Data flow between View and ViewModel follows typical `MVVM` scheme. Properties in viewModels are bound to WPF controls and when these properties are updated, `INotifyPropertyChanged` handler is invoked, which in turn updates UI. The diagram below provides a rough sketch of the components involved.
-![Flow of data between UI(view) and ViewModels](ui_vm_interaction.PNG)
+![Flow of data between UI(view) and ViewModels](ui_vm_interaction.png)
 **Fig 2: Flow of data between UI and ViewModels.**
 
 #### Flow of data between ViewModels and Plugins(Model)
@@ -41,7 +41,7 @@ Data flow between View and ViewModel follows typical `MVVM` scheme. Properties i
         List<Result> Query(Query query, bool delayedExecution);
     }
 ```
-![Flow of data between UI(view) and ViewModels](vm_plugin_interaction.PNG)
+![Flow of data between UI(view) and ViewModels](vm_plugin_interaction.png)
 **Fig 3: Flow of data between ViewModels and Plugins.**
 
 #### Requesting services from powerlauncher

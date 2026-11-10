@@ -25,6 +25,11 @@
       "type": "string",
       "description": "Relative path to the entity of role document or chunk in the dataset."
     },
+    "entity_uri": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "URI from which the entity was retrieved, e.g. the Web page of a record from the Web search."
+    },
     "entity_role": {
       "type": "string",
       "enum": ["document", "chunk"],
@@ -99,11 +104,6 @@
       "description": "URI to commits of entity on project site."
     },
 
-    "created_at": {
-      "type": ["string", "null"],
-      "format": "date",
-      "description": "ISO-8601 date, e.g. yyyy-mm-dd."
-    },
     "imported_at": {
       "type": ["string", "null"],
       "format": "date",

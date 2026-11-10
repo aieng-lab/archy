@@ -3,11 +3,12 @@
   "schema_version": "1.0",
   "entity_id": "doc-8162",
   "entity_source_path": "data/md/buildingsmart/ifc4.3.x-development/content/introduction_images/introduction.md",
+  "entity_uri": null,
   "entity_role": "document",
   "parent_doc_id": null,
   "parent_doc_path": null,
   "children_chunk_ids": [
-    "data/md/buildingsmart/ifc4.3.x-development/content/introduction_images/IFC4_layered_architecture.png"
+    "chunk-8163"
   ],
   "entity_title": "Introduction",
   "entity_origin": "Open-Source",
@@ -19,7 +20,6 @@
   "project_uri": "https://github.com/buildingsmart/ifc4.3.x-development.git",
   "issue_tracking_uri": "https://github.com/buildingsmart/ifc4.3.x-development/issues",
   "version_controlled_uri": "https://github.com/buildingsmart/ifc4.3.x-development/commits",
-  "created_at": "2020-07-08",
   "imported_at": "2026-06-03",
   "version": "1.0",
   "authors": [],

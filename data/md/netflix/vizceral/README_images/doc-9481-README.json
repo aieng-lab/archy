@@ -3,12 +3,13 @@
   "schema_version": "1.0",
   "entity_id": "doc-9481",
   "entity_source_path": "data/md/netflix/vizceral/README_images/README.md",
+  "entity_uri": null,
   "entity_role": "document",
   "parent_doc_id": null,
   "parent_doc_path": null,
   "children_chunk_ids": [
-    "data/md/netflix/vizceral/README_images/logo.png",
-    "data/md/netflix/vizceral/README_images/vizceral-example.png"
+    "chunk-9482",
+    "chunk-9483"
   ],
   "entity_title": "Readme",
   "entity_origin": "Open-Source",
@@ -20,7 +21,6 @@
   "project_uri": "https://github.com/netflix/vizceral.git",
   "issue_tracking_uri": "https://github.com/netflix/vizceral/issues",
   "version_controlled_uri": "https://github.com/netflix/vizceral/commits",
-  "created_at": "2016-05-25",
   "imported_at": "2026-06-03",
   "version": "1.0",
   "authors": [],

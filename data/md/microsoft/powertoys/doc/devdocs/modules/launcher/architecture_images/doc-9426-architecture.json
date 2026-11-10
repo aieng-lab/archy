@@ -3,13 +3,14 @@
   "schema_version": "1.0",
   "entity_id": "doc-9426",
   "entity_source_path": "data/md/microsoft/powertoys/doc/devdocs/modules/launcher/architecture_images/architecture.md",
+  "entity_uri": null,
   "entity_role": "document",
   "parent_doc_id": null,
   "parent_doc_path": null,
   "children_chunk_ids": [
-    "data/md/microsoft/powertoys/doc/devdocs/modules/launcher/architecture_images/pt_run_ui.png",
-    "data/md/microsoft/powertoys/doc/devdocs/modules/launcher/architecture_images/ui_vm_interaction.PNG",
-    "data/md/microsoft/powertoys/doc/devdocs/modules/launcher/architecture_images/vm_plugin_interaction.PNG"
+    "chunk-9427",
+    "chunk-9428",
+    "chunk-9429"
   ],
   "entity_title": "Architecture",
   "entity_origin": "Open-Source",
@@ -21,7 +22,6 @@
   "project_uri": "https://github.com/microsoft/powertoys.git",
   "issue_tracking_uri": "https://github.com/microsoft/powertoys/issues",
   "version_controlled_uri": "https://github.com/microsoft/powertoys/commits",
-  "created_at": "2013-12-19",
   "imported_at": "2026-06-03",
   "version": "1.0",
   "authors": [],

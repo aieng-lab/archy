@@ -3,14 +3,15 @@
   "schema_version": "1.0",
   "entity_id": "doc-7679",
   "entity_source_path": "data/md/android10/Android-CleanArchitecture/README_images/README.md",
+  "entity_uri": null,
   "entity_role": "document",
   "parent_doc_id": null,
   "parent_doc_path": null,
   "children_chunk_ids": [
-    "data/md/android10/Android-CleanArchitecture/README_images/android10_logo_big.png",
-    "data/md/android10/Android-CleanArchitecture/README_images/clean_architecture.png",
-    "data/md/android10/Android-CleanArchitecture/README_images/clean_architecture_layers.png",
-    "data/md/android10/Android-CleanArchitecture/README_images/clean_architecture_layers_details.png"
+    "chunk-7680",
+    "chunk-7681",
+    "chunk-7682",
+    "chunk-7683"
   ],
   "entity_title": "Readme",
   "entity_origin": "Open-Source",
@@ -22,7 +23,6 @@
   "project_uri": "https://github.com/android10/Android-CleanArchitecture.git",
   "issue_tracking_uri": "https://github.com/android10/Android-CleanArchitecture/issues",
   "version_controlled_uri": "https://github.com/android10/Android-CleanArchitecture/commits",
-  "created_at": "2014-08-19",
   "imported_at": "2026-06-03",
   "version": "1.0",
   "authors": [],

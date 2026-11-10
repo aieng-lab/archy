@@ -79,11 +79,6 @@ Derived:
                              (ends in .git - GitHub's "Code" > "HTTPS" URL)
     issue_tracking_uri         "https://github.com/<user>/<repo>/issues"
     version_controlled_uri     "https://github.com/<user>/<repo>/commits"
-    created_at                the GitHub repository's creation date,
-                             fetched from the public GitHub API and
-                             cached per repository (queried once per
-                             repo, no matter how many files it has).
-                             Left null if the API call fails.
 
 --------------------------------------------------------------------
 Dry run by default (as requested)
@@ -259,7 +254,7 @@ class GitHubInfoCache:
 
 def base_instance(entity_id: str, entity_source_path: str, entity_role: str, entity_title: str,
                    entity_modality: str, mime_type: str, project_name: str, project_uri: str,
-                   issue_tracking_uri: str, version_controlled_uri: str, created_at: str | None,
+                   issue_tracking_uri: str, version_controlled_uri: str,
                    parent_doc_id: str | None, parent_doc_path: str | None,
                    children_chunk_ids: list[str] | None) -> dict:
     return OrderedDict([
@@ -267,6 +262,7 @@ def base_instance(entity_id: str, entity_source_path: str, entity_role: str, ent
         ("schema_version", "0.9"),
         ("entity_id", entity_id),
         ("entity_source_path", entity_source_path),
+        ("entity_uri", None),
         ("entity_role", entity_role),
         ("parent_doc_id", parent_doc_id),
         ("parent_doc_path", parent_doc_path),
@@ -281,7 +277,6 @@ def base_instance(entity_id: str, entity_source_path: str, entity_role: str, ent
         ("project_uri", project_uri),
         ("issue_tracking_uri", issue_tracking_uri),
         ("version_controlled_uri", version_controlled_uri),
-        ("created_at", created_at),
         ("imported_at", FIXED_VALUES["imported_at"]),
         ("version", FIXED_VALUES["version"]),
         ("authors", list(FIXED_VALUES["authors"])),
@@ -344,7 +339,6 @@ def process_md_folder(md_folder: Path, id_pool: IdPool, gh_cache: GitHubInfoCach
         project_uri = f"{base_repo_url}.git"
         issue_tracking_uri = f"{base_repo_url}/issues"
         version_controlled_uri = f"{base_repo_url}/commits"
-        created_at = gh_cache.get_created_at(owner, repo)
 
         def rel_source_path(file_path: Path) -> str:
             rel = file_path.relative_to(md_folder).as_posix()
@@ -395,7 +389,6 @@ def process_md_folder(md_folder: Path, id_pool: IdPool, gh_cache: GitHubInfoCach
                     mime_type=EXTENSION_TO_MIME[doc_file.suffix.lower()],
                     project_name=project_name, project_uri=project_uri,
                     issue_tracking_uri=issue_tracking_uri, version_controlled_uri=version_controlled_uri,
-                    created_at=created_at,
                     parent_doc_id=None, parent_doc_path=None, children_chunk_ids=children_chunk_ids,
                 )
                 doc_json_path = folder / f"{doc_entity_id}-{stem}.json"
@@ -410,7 +403,6 @@ def process_md_folder(md_folder: Path, id_pool: IdPool, gh_cache: GitHubInfoCach
                         entity_modality="image", mime_type=EXTENSION_TO_MIME[img_file.suffix.lower()],
                         project_name=project_name, project_uri=project_uri,
                         issue_tracking_uri=issue_tracking_uri, version_controlled_uri=version_controlled_uri,
-                        created_at=created_at,
                         parent_doc_id=doc_entity_id, parent_doc_path=doc_source_path, children_chunk_ids=None,
                     )
                     chunk_json_path = folder / f"{chunk_entity_id}-{img_stem}.json"
@@ -440,7 +432,6 @@ def process_md_folder(md_folder: Path, id_pool: IdPool, gh_cache: GitHubInfoCach
                     mime_type=EXTENSION_TO_MIME[f.suffix.lower()],
                     project_name=project_name, project_uri=project_uri,
                     issue_tracking_uri=issue_tracking_uri, version_controlled_uri=version_controlled_uri,
-                    created_at=created_at,
                     parent_doc_id=None, parent_doc_path=None, children_chunk_ids=None,
                 )
                 json_path = folder / f"{entity_id}-{stem}.json"

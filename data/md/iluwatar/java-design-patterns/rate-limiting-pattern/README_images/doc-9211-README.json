@@ -3,14 +3,15 @@
   "schema_version": "1.0",
   "entity_id": "doc-9211",
   "entity_source_path": "data/md/iluwatar/java-design-patterns/rate-limiting-pattern/README_images/README.md",
+  "entity_uri": null,
   "entity_role": "document",
   "parent_doc_id": null,
   "parent_doc_path": null,
   "children_chunk_ids": [
-    "data/md/iluwatar/java-design-patterns/rate-limiting-pattern/README_images/AdaptiveRateLimiter.png",
-    "data/md/iluwatar/java-design-patterns/rate-limiting-pattern/README_images/FixedWindowRateLimiter.png",
-    "data/md/iluwatar/java-design-patterns/rate-limiting-pattern/README_images/TokenBucketRateLimiter.png",
-    "data/md/iluwatar/java-design-patterns/rate-limiting-pattern/README_images/UMLClassDiagram.png"
+    "chunk-9212",
+    "chunk-9213",
+    "chunk-9214",
+    "chunk-9215"
   ],
   "entity_title": "Readme",
   "entity_origin": "Open-Source",
@@ -22,7 +23,6 @@
   "project_uri": "https://github.com/iluwatar/java-design-patterns.git",
   "issue_tracking_uri": "https://github.com/iluwatar/java-design-patterns/issues",
   "version_controlled_uri": "https://github.com/iluwatar/java-design-patterns/commits",
-  "created_at": "2014-08-09",
   "imported_at": "2026-06-03",
   "version": "1.0",
   "authors": [],

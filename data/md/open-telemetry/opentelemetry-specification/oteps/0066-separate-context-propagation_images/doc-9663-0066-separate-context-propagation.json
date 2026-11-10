@@ -3,12 +3,13 @@
   "schema_version": "1.0",
   "entity_id": "doc-9663",
   "entity_source_path": "data/md/open-telemetry/opentelemetry-specification/oteps/0066-separate-context-propagation_images/0066-separate-context-propagation.md",
+  "entity_uri": null,
   "entity_role": "document",
   "parent_doc_id": null,
   "parent_doc_path": null,
   "children_chunk_ids": [
-    "data/md/open-telemetry/opentelemetry-specification/oteps/0066-separate-context-propagation_images/0066_context_propagation_details.png",
-    "data/md/open-telemetry/opentelemetry-specification/oteps/0066-separate-context-propagation_images/0066_context_propagation_overview.png"
+    "chunk-9664",
+    "chunk-9665"
   ],
   "entity_title": "0066 Separate Context Propagation",
   "entity_origin": "Open-Source",
@@ -20,7 +21,6 @@
   "project_uri": "https://github.com/open-telemetry/opentelemetry-specification.git",
   "issue_tracking_uri": "https://github.com/open-telemetry/opentelemetry-specification/issues",
   "version_controlled_uri": "https://github.com/open-telemetry/opentelemetry-specification/commits",
-  "created_at": "2019-05-01",
   "imported_at": "2026-06-03",
   "version": "1.0",
   "authors": [],

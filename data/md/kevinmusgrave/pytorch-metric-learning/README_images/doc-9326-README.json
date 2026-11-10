@@ -3,13 +3,14 @@
   "schema_version": "1.0",
   "entity_id": "doc-9326",
   "entity_source_path": "data/md/kevinmusgrave/pytorch-metric-learning/README_images/README.md",
+  "entity_uri": null,
   "entity_role": "document",
   "parent_doc_id": null,
   "parent_doc_path": null,
   "children_chunk_ids": [
-    "data/md/kevinmusgrave/pytorch-metric-learning/README_images/Logo2.png",
-    "data/md/kevinmusgrave/pytorch-metric-learning/README_images/high_level_loss_function_overview.png",
-    "data/md/kevinmusgrave/pytorch-metric-learning/README_images/high_level_module_overview.png"
+    "chunk-9327",
+    "chunk-9328",
+    "chunk-9329"
   ],
   "entity_title": "Readme",
   "entity_origin": "Open-Source",
@@ -21,7 +22,6 @@
   "project_uri": "https://github.com/kevinmusgrave/pytorch-metric-learning.git",
   "issue_tracking_uri": "https://github.com/kevinmusgrave/pytorch-metric-learning/issues",
   "version_controlled_uri": "https://github.com/kevinmusgrave/pytorch-metric-learning/commits",
-  "created_at": "2019-10-23",
   "imported_at": "2026-06-03",
   "version": "1.0",
   "authors": [],

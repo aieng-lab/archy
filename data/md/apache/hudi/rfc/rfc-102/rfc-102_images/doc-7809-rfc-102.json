@@ -3,13 +3,14 @@
   "schema_version": "1.0",
   "entity_id": "doc-7809",
   "entity_source_path": "data/md/apache/hudi/rfc/rfc-102/rfc-102_images/rfc-102.md",
+  "entity_uri": null,
   "entity_role": "document",
   "parent_doc_id": null,
   "parent_doc_path": null,
   "children_chunk_ids": [
-    "data/md/apache/hudi/rfc/rfc-102/rfc-102_images/cat_emebdding.png",
-    "data/md/apache/hudi/rfc/rfc-102/rfc-102_images/comparison_embedding.png",
-    "data/md/apache/hudi/rfc/rfc-102/rfc-102_images/embedding_table.png"
+    "chunk-7810",
+    "chunk-7811",
+    "chunk-7812"
   ],
   "entity_title": "Rfc 102",
   "entity_origin": "Open-Source",
@@ -21,7 +22,6 @@
   "project_uri": "https://github.com/apache/hudi.git",
   "issue_tracking_uri": "https://github.com/apache/hudi/issues",
   "version_controlled_uri": "https://github.com/apache/hudi/commits",
-  "created_at": "2016-12-14",
   "imported_at": "2026-06-03",
   "version": "1.0",
   "authors": [],

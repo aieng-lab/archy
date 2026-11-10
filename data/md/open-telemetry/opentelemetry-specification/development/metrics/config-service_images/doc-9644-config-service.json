@@ -3,11 +3,12 @@
   "schema_version": "1.0",
   "entity_id": "doc-9644",
   "entity_source_path": "data/md/open-telemetry/opentelemetry-specification/development/metrics/config-service_images/config-service.md",
+  "entity_uri": null,
   "entity_role": "document",
   "parent_doc_id": null,
   "parent_doc_path": null,
   "children_chunk_ids": [
-    "data/md/open-telemetry/opentelemetry-specification/development/metrics/config-service_images/dynamic-config-service.png"
+    "chunk-9645"
   ],
   "entity_title": "Config Service",
   "entity_origin": "Open-Source",
@@ -19,7 +20,6 @@
   "project_uri": "https://github.com/open-telemetry/opentelemetry-specification.git",
   "issue_tracking_uri": "https://github.com/open-telemetry/opentelemetry-specification/issues",
   "version_controlled_uri": "https://github.com/open-telemetry/opentelemetry-specification/commits",
-  "created_at": "2019-05-01",
   "imported_at": "2026-06-03",
   "version": "1.0",
   "authors": [],

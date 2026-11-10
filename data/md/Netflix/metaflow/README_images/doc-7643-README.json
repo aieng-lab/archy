@@ -3,12 +3,13 @@
   "schema_version": "1.0",
   "entity_id": "doc-7643",
   "entity_source_path": "data/md/Netflix/metaflow/README_images/README.md",
+  "entity_uri": null,
   "entity_role": "document",
   "parent_doc_id": null,
   "parent_doc_path": null,
   "children_chunk_ids": [
-    "data/md/Netflix/metaflow/README_images/multicloud.png",
-    "data/md/Netflix/metaflow/README_images/prototype-to-prod.png"
+    "chunk-7644",
+    "chunk-7645"
   ],
   "entity_title": "Readme",
   "entity_origin": "Open-Source",
@@ -20,7 +21,6 @@
   "project_uri": "https://github.com/Netflix/metaflow.git",
   "issue_tracking_uri": "https://github.com/Netflix/metaflow/issues",
   "version_controlled_uri": "https://github.com/Netflix/metaflow/commits",
-  "created_at": "2019-09-17",
   "imported_at": "2026-06-03",
   "version": "1.0",
   "authors": [],

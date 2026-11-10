@@ -3,12 +3,13 @@
   "schema_version": "1.0",
   "entity_id": "doc-8264",
   "entity_source_path": "data/md/developmentseed/label-maker/examples/walkthrough-classification-aws_images/walkthrough-classification-aws.md",
+  "entity_uri": null,
   "entity_role": "document",
   "parent_doc_id": null,
   "parent_doc_path": null,
   "children_chunk_ids": [
-    "data/md/developmentseed/label-maker/examples/walkthrough-classification-aws_images/dar-classification.png",
-    "data/md/developmentseed/label-maker/examples/walkthrough-classification-aws_images/dar-tile.jpg"
+    "chunk-8265",
+    "chunk-8266"
   ],
   "entity_title": "Walkthrough Classification Aws",
   "entity_origin": "Open-Source",
@@ -20,7 +21,6 @@
   "project_uri": "https://github.com/developmentseed/label-maker.git",
   "issue_tracking_uri": "https://github.com/developmentseed/label-maker/issues",
   "version_controlled_uri": "https://github.com/developmentseed/label-maker/commits",
-  "created_at": "2018-01-10",
   "imported_at": "2026-06-03",
   "version": "1.0",
   "authors": [],

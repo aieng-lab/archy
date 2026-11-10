@@ -3,12 +3,13 @@
   "schema_version": "1.0",
   "entity_id": "doc-9868",
   "entity_source_path": "data/md/tensorflow/tensorflow/tensorflow/core/profiler/g3doc/python_api_images/python_api.md",
+  "entity_uri": null,
   "entity_role": "document",
   "parent_doc_id": null,
   "parent_doc_path": null,
   "children_chunk_ids": [
-    "data/md/tensorflow/tensorflow/tensorflow/core/profiler/g3doc/python_api_images/graph_timeline.png",
-    "data/md/tensorflow/tensorflow/tensorflow/core/profiler/g3doc/python_api_images/scope_timeline.png"
+    "chunk-9869",
+    "chunk-9870"
   ],
   "entity_title": "Python Api",
   "entity_origin": "Open-Source",
@@ -20,7 +21,6 @@
   "project_uri": "https://github.com/tensorflow/tensorflow.git",
   "issue_tracking_uri": "https://github.com/tensorflow/tensorflow/issues",
   "version_controlled_uri": "https://github.com/tensorflow/tensorflow/commits",
-  "created_at": "2015-11-07",
   "imported_at": "2026-06-03",
   "version": "1.0",
   "authors": [],

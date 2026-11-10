@@ -116,12 +116,12 @@ There are two variants of UART converters that ESP8266 boards use:
 6. Type in `esp8266`
 
 7. Select version `2.0.0` and click on `Install` (**must be version 2.0.0!**)<br><br>
-![Screenshot of Arduino, selecting the right version](arduino_screenshot_1.JPG)
+![Screenshot of Arduino, selecting the right version](arduino_screenshot_1.jpg)
 
 8. Go to `File` > `Preferences`
 
 9. Open the folder path under `More preferences can be edited directly in the file`<br><br>
-![Screenshot of Arduino, opening folder path](arduino_screenshot_2.JPG)
+![Screenshot of Arduino, opening folder path](arduino_screenshot_2.jpg)
 
 10. Go to `packages` > `esp8266` > `hardware` > `esp8266` > `2.0.0` > `tools` > `sdk` > `include`
 
@@ -136,7 +136,7 @@ There are two variants of UART converters that ESP8266 boards use:
     void wifi_unregister_send_pkt_freedom_cb(void);
     int wifi_send_pkt_freedom(uint8 *buf, int len, bool sys_seq);
 
-![screenshot of notepad, copy paste the right code](notepad_screenshot_1.JPG)
+![screenshot of notepad, copy paste the right code](notepad_screenshot_1.jpg)
 
 13. Go to the [arduino/SDK_fix](https://github.com/samdenty99/Wi-PWN/arduino/SDK_fix) folder of this project
 

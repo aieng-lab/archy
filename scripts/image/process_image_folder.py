@@ -37,7 +37,6 @@ valid instance):
        - entity_id            = "doc-<number>"
        - entity_source_path   = "data/image/doc-<number>-<name>.<ext>"
        - mime_type             = derived from the file extension
-       - created_at           = "2024-01-01"
        - imported_at          = "2026-05-07"
        - entity_title         = ""
      All other template fields are kept unchanged.
@@ -86,6 +85,7 @@ DEFAULT_TEMPLATE = {
     "schema_version": "0.9",
     "entity_id": "",
     "entity_source_path": "",
+    "entity_uri": None,
     "entity_role": "document",
     "parent_doc_id": None,
     "parent_doc_path": None,
@@ -100,7 +100,6 @@ DEFAULT_TEMPLATE = {
     "project_uri": "",
     "issue_tracking_uri": None,
     "version_controlled_uri": None,
-    "created_at": None,
     "imported_at": None,
     "version": None,
     "authors": [],
@@ -111,7 +110,6 @@ DEFAULT_TEMPLATE = {
     "section": None,
 }
 
-CREATED_AT = "2024-01-01"
 IMPORTED_AT = "2026-05-07"
 STARTING_ID = 2000
 
@@ -169,7 +167,6 @@ def build_instance(template: dict, doc_id: str, source_path: str, mime_type: str
     instance["entity_source_path"] = source_path
     instance["mime_type"] = mime_type
     instance["entity_role"] = "document"  # always a document, never a chunk
-    instance["created_at"] = CREATED_AT
     instance["imported_at"] = IMPORTED_AT
     instance["entity_title"] = ""
     return instance

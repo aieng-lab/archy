@@ -3,11 +3,12 @@
   "schema_version": "1.0",
   "entity_id": "doc-7600",
   "entity_source_path": "data/md/3b1b/manim/README_images/README.md",
+  "entity_uri": null,
   "entity_role": "document",
   "parent_doc_id": null,
   "parent_doc_path": null,
   "children_chunk_ids": [
-    "data/md/3b1b/manim/README_images/cropped.png"
+    "chunk-7601"
   ],
   "entity_title": "Readme",
   "entity_origin": "Open-Source",
@@ -19,7 +20,6 @@
   "project_uri": "https://github.com/3b1b/manim.git",
   "issue_tracking_uri": "https://github.com/3b1b/manim/issues",
   "version_controlled_uri": "https://github.com/3b1b/manim/commits",
-  "created_at": "2015-03-22",
   "imported_at": "2026-06-03",
   "version": "1.0",
   "authors": [],
