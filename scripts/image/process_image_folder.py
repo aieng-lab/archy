@@ -37,14 +37,13 @@ valid instance):
        - entity_id            = "doc-<number>"
        - entity_source_path   = "data/image/doc-<number>-<name>.<ext>"
        - mime_type             = derived from the file extension
-       - imported_at          = "2026-05-07"
        - entity_title         = ""
      All other template fields are kept unchanged.
 
   6. The running number is incremented for every new file processed.
 
 Files whose extension has no corresponding schema mime_type (the
-schema only defines image/png, image/jpeg and image/svg for images) are
+schema only defines image/png, image/jpeg and image/svg+xml for images) are
 NOT turned into an instance - they are listed separately in the
 statistics instead.
 
@@ -76,8 +75,8 @@ from pathlib import Path
 
 # Instance template derived from entity-schema.json (no separate
 # instance-pattern attachment was provided this time). Uses the
-# current field set, including "version_controlled_uri" and a nullable
-# imported_at. entity_source defaults to "web-search".
+# current field set, including "version_controlled_uri".
+# entity_source defaults to "web-search".
 DEFAULT_TEMPLATE = {
     "json_schema": "2020-12",
     "schema_version": "0.9",
@@ -98,14 +97,12 @@ DEFAULT_TEMPLATE = {
     "project_uri": "",
     "issue_tracking_uri": None,
     "version_controlled_uri": None,
-    "imported_at": None,
     "page_range": None,
     "line_range": None,
     "char_range": None,
     "section": None,
 }
 
-IMPORTED_AT = "2026-05-07"
 STARTING_ID = 2000
 
 # Extensions to look for in the top-level image folder ("weiteres" =
@@ -118,7 +115,7 @@ EXTENSION_TO_MIME = {
     ".png": "image/png",
     ".jpg": "image/jpeg",
     ".jpeg": "image/jpeg",
-    ".svg": "image/svg",
+    ".svg": "image/svg+xml",
 }
 
 ENTITY_ID_PATTERN = re.compile(r'"entity_id"\s*:\s*"doc-(\d+)"')
@@ -162,7 +159,6 @@ def build_instance(template: dict, doc_id: str, source_path: str, mime_type: str
     instance["entity_source_path"] = source_path
     instance["mime_type"] = mime_type
     instance["entity_role"] = "document"  # always a document, never a chunk
-    instance["imported_at"] = IMPORTED_AT
     instance["entity_title"] = ""
     return instance
 

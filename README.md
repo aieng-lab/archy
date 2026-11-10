@@ -69,7 +69,6 @@ Each record is a JSON object that conforms to [`scripts/JSON-Schema/entity-schem
   "project_uri": "https://github.com/apple/swift.git",
   "issue_tracking_uri": "https://github.com/apple/swift/issues",
   "version_controlled_uri": "https://github.com/apple/swift/commits",
-  "imported_at": "2026-06-03",
   "page_range": null,
   "line_range": null,
   "char_range": null,
@@ -94,7 +93,6 @@ Each record is a JSON object that conforms to [`scripts/JSON-Schema/entity-schem
 | `mime_type` | MIME type of the data file. |
 | `project_name` | Project of the record, e.g., `apple/swift`. Optional for records from the Web search and the PURE dataset. |
 | `project_uri`, `issue_tracking_uri`, `version_controlled_uri` | Links to the code repository, the issue tracker, and the commit history of the project. |
-| `imported_at` | Date on which the record was imported. |
 | `page_range`, `line_range`, `char_range`, `section` | Location of a chunk within its parent document. Reserved for chunks that are parts of larger documents; currently `null` for all records. |
 
 For PURE documents, `entity_uri` points to the original source of the document where we could trace it, and to the PURE dataset otherwise.

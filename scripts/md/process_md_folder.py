@@ -51,7 +51,6 @@ Attribute values (from the provided Excel mapping)
 --------------------------------------------------------------------
 Fixed for every instance, any role:
     entity_source      = "repository"
-    imported_at        = "2026-06-03"
     page_range/line_range/char_range/section = null
 
 Derived:
@@ -59,10 +58,9 @@ Derived:
     entity_modality          text/image depending on extension, except
                              "bimodal" for a document-with-chunks
     mime_type                 from extension (.md->text/markdown,
-                             .rst->text/plain [no dedicated schema
-                             value for reStructuredText], .png->
-                             image/png, .jpg/.jpeg->image/jpg,
-                             .svg->image/svg)
+                             .rst->text/x-rst, .png->image/png,
+                             .jpg/.jpeg->image/jpeg,
+                             .svg->image/svg+xml)
     project_name              "<GitHub user>/<Repository>"
     project_uri               "https://github.com/<user>/<repo>.git"
                              (ends in .git - GitHub's "Code" > "HTTPS" URL)
@@ -106,16 +104,15 @@ ID_MAX = 9999
 
 FIXED_VALUES = {
     "entity_source": "repository",
-    "imported_at": "2026-06-03",
 }
 
 EXTENSION_TO_MIME = {
     ".md": "text/markdown",
-    ".rst": "text/plain",  # no dedicated reStructuredText value in the schema
+    ".rst": "text/x-rst",
     ".png": "image/png",
-    ".jpg": "image/jpg",
-    ".jpeg": "image/jpg",
-    ".svg": "image/svg",
+    ".jpg": "image/jpeg",
+    ".jpeg": "image/jpeg",
+    ".svg": "image/svg+xml",
 }
 
 
@@ -269,7 +266,6 @@ def base_instance(entity_id: str, entity_source_path: str, entity_role: str, ent
         ("project_uri", project_uri),
         ("issue_tracking_uri", issue_tracking_uri),
         ("version_controlled_uri", version_controlled_uri),
-        ("imported_at", FIXED_VALUES["imported_at"]),
         ("page_range", None),
         ("line_range", None),
         ("char_range", None),

@@ -29,7 +29,6 @@ For every PDF file found directly in that folder:
        - entity_id            = "doc-<number>"
        - entity_source_path   = "data/pdf/doc-<number>-<name>.<ext>"
        - mime_type             = derived from the file extension
-       - imported_at          = "2026-05-07"
        - entity_title         = ""
      All other template fields are kept unchanged.
 
@@ -82,7 +81,6 @@ DEFAULT_TEMPLATE = {
     "project_uri": "",
     "issue_tracking_uri": None,
     "version_controlled_uri": None,
-    "imported_at": "2026-07-25",
     "page_range": None,
     "line_range": None,
     "char_range": None,
@@ -90,18 +88,17 @@ DEFAULT_TEMPLATE = {
 }
 
 # Fixed values requested for every newly created instance.
-IMPORTED_AT = "2026-05-07"
 STARTING_ID = 6000
 
 # Extension -> mime_type mapping (matches the schema's mime_type enum).
 EXTENSION_TO_MIME = {
     ".pdf": "application/pdf",
-    ".doc": "application/doc",
-    ".docx": "application/doc",
-    ".jpg": "image/jpg",
-    ".jpeg": "image/jpg",
+    ".doc": "application/msword",
+    ".docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    ".jpg": "image/jpeg",
+    ".jpeg": "image/jpeg",
     ".png": "image/png",
-    ".svg": "image/svg",
+    ".svg": "image/svg+xml",
     ".md": "text/markdown",
     ".txt": "text/plain",
 }
@@ -157,7 +154,6 @@ def build_instance(template: dict, doc_id: str, source_path: str, mime_type: str
     instance["entity_id"] = doc_id
     instance["entity_source_path"] = source_path
     instance["mime_type"] = mime_type
-    instance["imported_at"] = IMPORTED_AT
     instance["entity_title"] = ""
     return instance
 

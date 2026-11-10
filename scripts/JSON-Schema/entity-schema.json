@@ -75,10 +75,11 @@
       "type": "string",
       "enum": [
         "application/pdf",
-        "application/doc",
+        "application/msword",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "image/jpeg",
         "image/png",
-        "image/svg",
+        "image/svg+xml",
         "text/markdown",
         "text/plain",
         "text/x-rst"
@@ -100,12 +101,6 @@
     "version_controlled_uri": {
       "type": ["string", "null"],
       "description": "URI to commits of entity on project site."
-    },
-
-    "imported_at": {
-      "type": ["string", "null"],
-      "format": "date",
-      "description": "ISO-8601 date, e.g. yyyy-mm-dd."
     },
 
     "page_range": {
@@ -158,8 +153,7 @@
     "entity_is_architectural",
     "entity_source",
     "entity_modality",
-    "mime_type",
-    "imported_at"
+    "mime_type"
   ],
 
   "allOf": [

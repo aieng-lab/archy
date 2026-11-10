@@ -1,0 +1,23 @@
+# GitHub token read by scripts/md/filter21_3.py (never commit)
+.github_token
+.env
+
+# Default output folder of the miner (downloads, index.html, manifest.json, miner.log)
+github_download3_1/
+miner.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~

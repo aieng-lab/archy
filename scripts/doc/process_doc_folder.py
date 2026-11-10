@@ -35,7 +35,6 @@ directly in that folder:
        - entity_id            = "doc-<number>"
        - entity_source_path   = "data/doc/doc-<number>-<name>.<ext>"
        - mime_type             = derived from the file extension
-       - imported_at          = "2026-05-07"
        - entity_title         = ""
      All other template fields are kept unchanged.
 
@@ -44,11 +43,12 @@ directly in that folder:
 --------------------------------------------------------------------
 mime_type note - .adoc has no dedicated schema value
 --------------------------------------------------------------------
-The schema's mime_type enum defines: application/pdf, application/doc,
-image/jpg, image/png, image/svg, text/markdown, text/plain,
-text/x-rst - there is still no dedicated AsciiDoc type. This script
+The schema's mime_type enum defines: application/pdf, application/msword,
+the .docx type, image/jpeg, image/png, image/svg+xml, text/markdown,
+text/plain, text/x-rst - there is still no dedicated AsciiDoc type. This script
 maps:
-    .doc, .docx -> application/doc
+    .doc        -> application/msword
+    .docx       -> application/vnd.openxmlformats-officedocument.wordprocessingml.document
     .txt        -> text/plain
     .adoc       -> text/markdown  (best-effort: AsciiDoc is a
                     lightweight markup language, closest existing
@@ -82,8 +82,8 @@ from pathlib import Path
 
 # Instance template derived from entity-schema.json (no separate
 # instance-pattern attachment was provided this time). Uses the
-# current field set, including "version_controlled_uri" and a nullable
-# imported_at. entity_source defaults to "web-search".
+# current field set, including "version_controlled_uri".
+# entity_source defaults to "web-search".
 DEFAULT_TEMPLATE = {
     "json_schema": "2020-12",
     "schema_version": "1.0",
@@ -99,19 +99,17 @@ DEFAULT_TEMPLATE = {
     "entity_is_architectural": True,
     "entity_source": "web-search",  # set to "pure" for documents from the PURE dataset
     "entity_modality": "text",
-    "mime_type": "application/doc",
+    "mime_type": "application/msword",
     "project_name": "",
     "project_uri": "",
     "issue_tracking_uri": None,
     "version_controlled_uri": None,
-    "imported_at": None,
     "page_range": None,
     "line_range": None,
     "char_range": None,
     "section": None,
 }
 
-IMPORTED_AT = "2026-05-07"
 STARTING_ID = 1
 ID_WIDTH = 4  # zero-padded to at least this many digits
 
@@ -122,8 +120,8 @@ DOC_EXTENSIONS_TO_SCAN = {".doc", ".docx", ".adoc", ".txt"}
 # .adoc has no dedicated value in the schema - text/markdown is used
 # as the closest best-effort fit (see module docstring above).
 EXTENSION_TO_MIME = {
-    ".doc": "application/doc",
-    ".docx": "application/doc",
+    ".doc": "application/msword",
+    ".docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
     ".txt": "text/plain",
     ".adoc": "text/markdown",
 }
@@ -173,7 +171,6 @@ def build_instance(template: dict, doc_id: str, source_path: str, mime_type: str
     instance["entity_id"] = doc_id
     instance["entity_source_path"] = source_path
     instance["mime_type"] = mime_type
-    instance["imported_at"] = IMPORTED_AT
     instance["entity_title"] = ""
     return instance
 
